@@ -1,0 +1,17 @@
+cron4j=product,dealer,Sellproduct
+
+product.cron=30 23 * * *
+product.class=com.akec.cron.task.ProductTask
+product.daemon=true
+product.enable=true
+
+dealer.cron=50 23 * * *
+dealer.class=com.akec.cron.task.SapdealerTask
+dealer.daemon=true
+dealer.enable=true
+
+
+Sellproduct.cron=00 12,23 * * *
+Sellproduct.class=com.akec.cron.task.SellproductTask
+Sellproduct.daemon=true
+Sellproduct.enable=true

@@ -1,0 +1,21 @@
+# config
+jdbcUrl = jdbc:mysql://localhost/jfinal_demo?characterEncoding=utf8&useSSL=false&zeroDateTimeBehavior=convertToNull
+user = root
+password =
+devMode = true
+
+
+t.jdbc.type=mssql
+t.jdbc.driver=net.sourceforge.jtds.jdbc.Driver
+t.jdbc.url=jdbc:jtds:sqlserver://localhost:1433/AKEC_BT
+t.jdbc.username=btuser
+t.jdbc.password=btuser
+
+
+s.jdbc.type=mssql
+s.jdbc.driver=net.sourceforge.jtds.jdbc.Driver
+s.jdbc.url=jdbc:jtds:sqlserver://192.168.1.6:1433/SBO_AKYC
+s.jdbc.username=akbt
+s.jdbc.password=akbt2003
+
+
